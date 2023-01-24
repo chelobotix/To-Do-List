@@ -2,9 +2,9 @@
 
 <div align="center">
 
-  <img src="assets/images/to-do-list.png" alt="logo" width="400"  height="auto" />
+  <img src="src/assets/images/to-do-list.png" alt="logo" width="400"  height="auto" />
   <br/>
-  <img src="assets/images/Logo Barrenechea.png" alt="logo" width="300"  height="auto" />
+  <img src="src/assets/images/Logo Barrenechea.png" alt="logo" width="300"  height="auto" />
   <br/>
 
   <h3><b>To Do List</b></h3>
@@ -60,7 +60,6 @@
 
 <a href="https://chelobotix.github.io/Capstone-project-Protoje-concert/">Visit the Live Demo</a>
 <br/>
-<a href="https://www.loom.com/share/b2074e5004a04aae9bcb8802979bbf44">Loom Presentation Video</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -75,7 +74,7 @@ In order to run this project you need: git installed in your system
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/chelobotix/Capstone-project-Protoje-concert.git
+  https://github.com/chelobotix/To-Do-List.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,7 +96,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Buy Ticket section]**
+- [ ] **Local Storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,20 +122,16 @@ Cindy Shin. This project was adapted from Cindy Shin's <a href="https://www.beha
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **Is there any restriction to adapting the page to another concert??**
+- **Is there any restriction to adapting the page to other porpouse??**
 
-  - No, but please don't forget to link for the original <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">template</a>
-
-- **Can I change the original colors or assign a new color palette?**
-
-  - Yeah, no problem
+  - No problem.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/chelobotix/Capstone-project-Protoje-concert/blob/html-skeleton-and-css-style/license">License</a>) licensed.
+This project is [MIT](<a href="https://github.com/chelobotix/To-Do-List/blob/Html_Skeleton_and_basic_JS/license">License</a>) licensed.
 
-<a href="https://github.com/chelobotix/Capstone-project-Protoje-concert/blob/html-skeleton-and-css-style/license">License</a>
+<a href="https://github.com/chelobotix/To-Do-List/blob/Html_Skeleton_and_basic_JS/license">License</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
