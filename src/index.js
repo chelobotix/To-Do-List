@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import './style.css';
-import './images/reload.png'
+import './assets/images/reload.png'
 
 function component() {
   const element = document.createElement('div');
