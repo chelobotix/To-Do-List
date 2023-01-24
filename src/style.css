@@ -1,3 +1,83 @@
-body {
-  background-color: bisque;
+main {
+  display: flex;
+  justify-content: center;
+  margin: 30px 5% 0 10%;
+}
+
+main section {
+  width: 100%;
+  box-shadow: 1px 0 12px 3px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 1px 0 12px 3px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 1px 0 12px 3px rgba(0, 0, 0, 0.54);
+}
+
+main section div.title {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #7d7d7d;
+  padding: 0 3% 0 3%;
+}
+
+main section div.title a.title img.title {
+  width: 16px;
+}
+
+main section form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #7d7d7d;
+  padding: 0 3% 0 3%;
+}
+
+main section form input[type="text"] {
+  border: none;
+  width: 80%;
+  height: 50px;
+  font-size: 14px;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+main section form input[type="image"] {
+  width: 16px;
+}
+
+main section form input:focus {
+  outline: none;
+}
+
+main section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+main section ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 94%;
+  height: 50px;
+  gap: 10px;
+  border-bottom: 1px solid #7d7d7d;
+  padding: 0 3% 0 3%;
+}
+
+main section ul li .more {
+  width: 16px;
+  margin-left: auto;
+}
+
+main section div.clearAll p.clearAll {
+  width: 100%;
+  text-align: center;
+  color: #7d7d7d;
 }
