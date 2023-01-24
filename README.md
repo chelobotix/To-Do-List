@@ -58,7 +58,7 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-<a href="https://chelobotix.github.io/Capstone-project-Protoje-concert/">Visit the Live Demo</a>
+<a href="https://chelobotix.github.io/To-Do-List/">Visit the Live Demo</a>
 <br/>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -67,7 +67,28 @@ To get a local copy up and use as a template for your own portafolio site, follo
 
 ### Prerequisites
 
-In order to run this project you need: git installed in your system
+In order to run this project you need: Git and Nodejs installed in your system and Webpack knowledge<br/>
+NPM dependecies needed:
+```sh
+npm i webpack webpack-cli webpack-dev-server --save-dev
+```
+```sh
+npm i html-webpack-plugin --save-dev
+```
+```sh
+npm install --save-dev style-loader css-loader
+```
+```sh
+npm install file-loader --save-dev
+```
+run project:
+```sh
+npm run build
+```
+```sh
+npm start
+```
+
 
 ### Clone
 
