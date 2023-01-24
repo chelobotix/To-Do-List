@@ -2,13 +2,13 @@
 
 <div align="center">
 
-  <img src="assets/images/protoje1.jpg" alt="logo" width="400"  height="auto" />
+  <img src="assets/images/to-do-list.png" alt="logo" width="400"  height="auto" />
   <br/>
   <img src="assets/images/Logo Barrenechea.png" alt="logo" width="300"  height="auto" />
   <br/>
 
-  <h3><b>Protoje Concert</b></h3>
-  <h3><b>Capstone Microverse Project Module 1</b></h3>
+  <h3><b>To Do List</b></h3>
+  <h3><b>To Do List Project Module 2</b></h3>
 
 </div>
 
@@ -32,7 +32,7 @@
 
 # 📖 Protoje Concert - Capstone Micorverse Project Module 1<a name="about-project"></a>
 
-> A fictitious web page to demonstrate the skills learned in html, css and DOM management with Javascript.
+> To Do List App developed with html, css, js and webpack
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +44,7 @@
     <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
     <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
     <li><a href="https://en.wikipedia.org/wiki/JavaScript">Vanilla Javascript</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
   </ul>
 </details>
 
@@ -51,23 +52,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Mobile version**
-
-  - **Hamburger menu**
-  - **Heading section**
-  - **Main Program section**
-  - **Featured Performers section**
-  - **Load more button**
-  - **About Page**
-
-  **Desktop version**
-
-  - **Social media menu**
-  - **Top bar menu**
-  - **Heading section**
-  - **Main Program section**
-  - **Featured Performers section**
-  - **About Page**
+- **To Do List Generate with Webpack**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
