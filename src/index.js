@@ -1,14 +1,41 @@
-import _ from 'lodash';
 import './style.css';
-import './assets/images/reload.png'
+import './assets/images/reload.png';
+import './assets/images/enter.png';
+import './assets/images/more.png';
 
-function component() {
-  const element = document.createElement('div');
+const toDoListArray = [
+  {
+    description: 'Wash the Dishes',
+    completed: false,
+    index: 1,
+  },
+  {
+    description: 'Complete To Do list project',
+    completed: false,
+    index: 2,
+  },
+  {
+    description: 'Get Approved by Code Reviewer',
+    completed: false,
+    index: 3,
+  },
+];
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const loadList = () => {
+  const ul = document.querySelector('#ulList');
+  let aux = '';
+  toDoListArray.forEach((task) => {
+    if (!task.completed) {
+      aux += `<li>
+              <input type="checkbox" id="${task.index}" name="checkbox${task.index}"></input>
+              <p>${task.description}</p>
+              <a class="more" href="...">
+                <img class="more" src="./assets/images/more.png" alt="more" />
+              </a>
+            </li>`;
+    }
+  });
+  ul.innerHTML = aux;
+};
 
-  return element;
-}
-
-document.body.appendChild(component());
+loadList();

@@ -1,5 +1,5 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
   mode: 'development',
@@ -7,8 +7,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src", "index.html")
-    })
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
   ],
   module: {
     rules: [
@@ -23,12 +23,11 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              outputPath: 'assets/images/'
-            }
-          }
-        ]
+              outputPath: 'assets/images/',
+            },
+          },
+        ],
       },
     ],
   },
 };
-
